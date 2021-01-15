@@ -1,0 +1,306 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+html 
+{
+ background-color: #132041;
+ /* max-width: 1440px; */
+ /* padding:0px 231px; */
+ max-height: 2077px;
+}
+
+body
+{
+ /* margin: 0px 313.5px; */
+}
+
+.head
+{
+ background-color: #132041;
+ width: 1440px;
+ height: 120px;
+}
+.navbar{
+    /* display: flex; */
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    margin: 0;
+}
+.nav{
+    height: 100%;
+    display: flex;
+    list-style: none;
+    margin-left: -80px;
+    background-color: #132041;
+}
+.nav-logo{
+ margin: auto 0; 
+ margin-left: 147px;  
+ 
+}
+.nav-logo:hover{
+    animation-duration:0.5s ;
+    animation-name: rotat;
+    transition: all;
+    transform: rotate(0deg);
+}
+.nav-item{
+   display: block;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    border: solid 3px #DCDADF;
+    transition: all;
+    transform: scale(1);
+    transition-duration: 0.3s;
+    margin-left: 134px;
+    margin: auto;
+   
+}
+.nav-item:hover{
+    background-color: white;
+    transform: scale(2);
+}
+.nav-item-4{
+    transition: all;
+    transform: scale(1);
+    transition-duration: 0.3s;
+    margin-left: 134px;
+    margin: auto;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    border: solid 3px #DCDADF;
+    /* margin-right: -134px;
+    margin-left: 268px; */
+}
+.nav-item-4:hover{
+    background-color: white;
+    transform: scale(2);
+}
+
+.nav-item a{
+    
+    display:  block;
+    width: 100px;
+    height: 20px;
+    margin:50px auto;
+    margin-left: 27px;
+    text-decoration: none;
+
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+
+
+letter-spacing: 2em;
+
+    color: #DCDADF;
+}
+.nav-item-4 a{
+    display:  block;
+    width: 120px;
+    height: 20px;
+    margin:50px auto;
+    margin-left: 5px;
+    text-decoration: none;
+
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+color: #DCDADF;
+
+letter-spacing: 1em;
+}
+.LOGO{
+    width: 200px;
+    height: 100%;
+}
+.icon{
+width: auto;
+height: auto;   
+    margin: auto;
+    /* width: 46px;
+
+    height: 46px;  */
+}
+.icon {
+    display: block;
+    margin: auto 0px;
+}
+.icon  img{
+   
+    width: 46px;
+    height: 46px;
+    margin-right: 20px;
+}
+.IG,.FB{
+opacity: 1;
+}
+.IG:hover,.FB:hover{
+    opacity: 0.5;
+}
+.box
+{
+ background-color: #C4C4C448;
+ width: 1214px;
+ height: 1721px;
+ margin: 0px auto;
+}
+
+.logo video
+{
+ width: 813px;
+height: 300px;
+ margin: 139px 190px;
+}
+
+.line
+{
+ width: 1080px;
+ height: 1px;
+ background-color: #DCDADF;
+ margin: 0px 67px;
+}
+
+article h2
+{
+ font-size: 24px;
+ color: #DCDADF;
+ margin: 42px 0px 11px 138px;
+}
+
+.line1
+{
+ width: 142px;
+ height: 1px;
+ background-color: #DCDADF;
+ margin: 0px 0px 21px 117px;
+}
+
+p 
+{
+ font-size: 18px;
+ color: #DCDADF;
+}
+
+.pp
+{
+ width: 886px;
+ line-height: 30px;
+ letter-spacing: 0.3em;
+ margin: 0px 164px;
+ margin-bottom: 59px;
+}
+
+.line2
+{
+ width: 1080px;
+ height: 1px;
+ background-color: #DCDADF;
+ margin: 0px 67px;
+}
+
+.line3
+{
+ width: 110px;
+ height: 1px;
+ background-color: #DCDADF;
+ margin: 36px 555px 11px 550px;
+}
+
+h2
+{
+ font-size: 24px;
+ color: #DCDADF;
+ margin: 0px 555px;
+}
+
+.line4
+{
+ width: 110px;
+ height: 1px;
+ background-color: #DCDADF;
+ margin: 11px 555px 0px 550px;
+}
+
+.haolay
+{
+ display: flex;flex-direction: row;
+ display: flex;justify-content: center;
+ 
+}
+
+.haolay2
+{
+ display: flex;flex-direction: row;
+ display: flex;justify-content: center;
+}
+
+.photo article img
+{
+ width: 186px;
+ height: 186px;
+ margin: 47px 80px 0px 80px;
+ 
+} 
+
+article p
+{
+ font-size: 16px;
+ display: flex;justify-content: center;
+}
+.footer{
+   
+    width: 100%;
+    height: 280px;
+    background-color: #C4C4C4;
+}
+.foot{
+    display: flex;
+    width: auto;
+    height: 100%;
+    
+}
+.foot p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 25px;
+/* or 208% */
+
+letter-spacing: 0.3em;
+
+color: #676767;
+}
+.foot-icon{
+    width: auto;
+    
+    height: auto;
+    margin: auto 0;
+    margin-left:70px ;
+}
+.foot-icon img{
+    
+    width: 266px;
+    height: 82px;
+}
+.foot li{
+    width: auto;
+    
+    height: auto;
+    margin: auto ;
+}
+.social img{
+width: 46px;
+height: 46px;
+margin-right: 20px;
+}

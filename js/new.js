@@ -1,0 +1,26 @@
+$(document).ready(function () {
+     $('.circle1').mouseenter(function(){
+        $('.circle1word').css("opacity","1");
+    });
+    $('.circle1').mouseleave(function(){
+        $('.circle1word').css("opacity","0");
+    });
+    $('.circle2').mouseenter(function(){
+        $('.circle2word').css("opacity","1");
+    });
+    $('.circle2').mouseleave(function(){
+        $('.circle2word').css("opacity","0");
+    });
+    $('.circle3').mouseenter(function(){
+        $('.circle3word').css("opacity","1");
+    });
+    $('.circle3').mouseleave(function(){
+        $('.circle3word').css("opacity","0");
+    });
+    $('.circle4').mouseenter(function(){
+        $('.circle4word').css("opacity","1");
+    });
+    $('.circle4').mouseleave(function(){
+        $('.circle4word').css("opacity","0");
+    });
+});
